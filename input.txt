@@ -1,0 +1,16 @@
+/*i am a student and 
+studing ese in duet.*/
+//sample program
+#include<iostrem>
+using namespace std;
+
+int main(){
+	//adjfkld
+
+	//dskjfk
+
+
+/*i am a student and studing ese in duet.*/
+/*Now i am in third year second semester final
+it is high time(may be) to change my educational background*/ 
+}

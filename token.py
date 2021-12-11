@@ -128,16 +128,16 @@ ckheader=False
 
 for x in f:
     if x[0] == '#':
-        pass
-        #print(x, 'is header file')
+        #pass
+        print(x, 'is header file')
 
     elif isComment(x, ckcomment):
         print(ckcomment)
-        pass
+        #pass
     #if ckcomment != True:
     else:
-        pass
-        #parse(x)
+        #pass
+        parse(x)
 
     # parse(x)
 print(token)

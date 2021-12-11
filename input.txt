@@ -1,16 +1,17 @@
-/*i am a student and 
-studing ese in duet.*/
+int asdf;
+int asd,sdfd;
+
+/*This code was
+written using python*/
 //sample program
 #include<iostrem>
 using namespace std;
 
 int main(){
-	//adjfkld
+	//single line 2
+	//single line 3
 
-	//dskjfk
-
-
-/*i am a student and studing ese in duet.*/
-/*Now i am in third year second semester final
-it is high time(may be) to change my educational background*/ 
+/*Multiline example 2*/
+/*Multiline example 3 and
+last comment in this sample program*/
 }

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c9eb332-ffbf-481f-bcaa-7492bc376f3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/reTOnfa.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.py" beforeDir="false" afterPath="$PROJECT_DIR$/note.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reTOnfa.py" beforeDir="false" afterPath="$PROJECT_DIR$/reTOnfa.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

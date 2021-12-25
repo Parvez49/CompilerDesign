@@ -1,7 +1,10 @@
 
 
 #-------------------this code find or, dot or and operation only------------------------
-print("Enter regular expression any input characters but only enter '+' or '.' character")
+print("Enter regular expression any input characters")
+print("N.B.: If you have first bracket on your string please enter one starting")
+print("     and ending first bracket and you can also give * after first ending bracket")
+print("Regular expression: ")
 string=input()
 str=""
 star=''

@@ -1,7 +1,111 @@
 
+"""
+#-------------------this code find or operation only------------------------
+str=input()
+n=1
+initial=1
+final=2
+
+nfa=[[]for i in range(10)]
+nfa[n].append([str[0],n+1])
+n+=2
+temp=str[0]
+for i in range(1,len(str)):
+    if str[i]=='+':
+        temp=str[i]
+        continue
+    if temp=='+' and str[i].isalpha():
+        nfa[n].append([str[i],n+1])
+        initial2=n
+        final2=n+1
+        n+=2
+        nfa[n].append(['e',initial])
+        nfa[n].append(['e',n-2])
+        initial=n
+        n+=1
+        nfa[final].append(['e',n])
+        nfa[final2].append(['e',n])
+        final=n
+        n+=1
+print(nfa)
 
 
 
+print("initial :",initial,"Final :",final)
+print("state---------Input---------Next State")
+for i in range(len(nfa)):
+    if len(nfa[i])!=0:
+        for j in nfa[i]:
+            print("   ",i,"          ",j[0],"             ",j[1])
+
+
+
+
+
+
+
+
+
+
+str=input()
+n=1
+initial=1
+final=2
+
+nfa=[[]for i in range(10)]
+nfa[n].append([str[0],n+1])
+n+=2
+for i in range(1,len(str)):
+    if str[i].isalpha():
+        nfa[final].append(['e',n])
+        nfa[n].append([str[i],n+1])
+        final=n+1
+        n+=2
+
+    if str[i]=='*':
+        nfa[n].append(['e',initial])
+        nfa[final].append(['e',initial])
+        initial=n
+        n+=1
+
+
+print(nfa)
+print("initial: ",initial,"final: ",final)
+
+"""
+
+
+
+
+
+
+
+
+
+
+def dot():
+    pass
+
+
+
+print("You can use only two character a and b. also use .,*,+ for different operation")
+st r =input() n= 1
+nfalist = [n, str[0], n + 1]
+initial = 1
+final = 2
+n += 2
+# print(nfalist)
+for i in range(1, len(str)):
+    if str[i].isalpha() or str[i] == '.':
+        nfalist += ['e', n, str[i], n + 1]
+        final = n + 1
+        n += 2
+    if str[i] == '*':
+        nfalist = ['e', n, 'e'] + nfalist
+
+        initial = n
+
+print(nfalist)
 
 var=0
 func=0

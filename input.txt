@@ -1,15 +1,11 @@
-int asdf;
-int asd,sdfd;
 
-/*This code was
-written using python*/
-//sample program
 #include<iostrem>
 using namespace std;
 
 int main(){
-	//single line 2
-	//single line 3
+int asdf;
+int asd,sdfd;	
+
 
 /*Multiline example 2*/
 /*Multiline example 3 and
